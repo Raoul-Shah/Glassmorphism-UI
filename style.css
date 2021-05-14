@@ -131,3 +131,45 @@ header ul li a.active {
         transform: translateY(100px);
     }
 }
+
+.socialMedia {
+    position: absolute;
+    right: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socialMedia li {
+    list-style: none;
+}
+
+.socialMedia li a {
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 5px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.socialMedia li a img {
+    transform: scale(0.6);
+    transition: 0.5s;
+}
+
+.socialMedia li:hover a img {
+    transform: scale(0.6) rotate(360deg);
+}
+
+.copyrightText {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    color: #8a2435;
+}
