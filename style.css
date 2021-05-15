@@ -173,3 +173,11 @@ header ul li a.active {
     left: 50px;
     color: #8a2435;
 }
+
+@media(max-width: 1200px) {
+
+    .container {
+        position: relative;
+        width: calc(100% - 20px);
+}
+}
